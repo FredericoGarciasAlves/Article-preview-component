@@ -1,0 +1,83 @@
+@media (max-width: 375px) {
+    .main {
+        width: 32.7rem;
+        height: 51.2rem;
+        display: block;
+        position: relative;
+    }
+
+    .main .img-home {
+        display: none;
+    }
+
+    .main .img-home-responsive {
+        width: 32.7rem;
+        height: 20rem;
+        display: block;
+    }
+
+    .main .box-article {
+        padding: 3.6rem 3.2rem 2rem 3.2rem;
+    }
+
+    .main .box-article .title-article {
+        font-size: 1.6rem;
+    }
+
+    .main .box-article .article {
+        text-align: left;
+        font-size: 1.4rem;
+        margin-top: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .main .box-article .box-profile {
+        margin-top: 3rem;
+    }
+
+    .main .box-article .box-share-responsive-first {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+
+    .main .box-article .box-share-responsive-second {
+        display: flex;
+        padding: 2.2rem 3.2rem;
+        width: 32.7rem;
+        height: 6.4rem;
+        align-items: center;
+    }
+
+    .main
+        .box-article
+        .box-share-responsive-first
+        .box-share-responsive-second
+        .title-share-responsive {
+        font-size: 1.4rem;
+        letter-spacing: 0.6rem;
+        color: hsl(212, 23%, 69%);
+        margin-right: 0.8rem;
+    }
+
+    .main
+        .box-article
+        .box-share-responsive-first
+        .box-share-responsive-second
+        .link-responsive
+        .icon-share-responsive {
+        width: 2rem;
+        height: 2rem;
+        margin: 0.8rem;
+    }
+
+    .main
+        .box-article
+        .box-share-responsive-first
+        .box-share-responsive-second
+        .icon-share-responsive {
+        margin-left: 3.2rem;
+    }
+}

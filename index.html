@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Article preview component</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <main class="main">
+                <img
+                    src="./assets/images/Bitmap.png"
+                    alt="Imagem de uma comoda verde com um retrato em cima com vazo de trigo, na frente de uma parede de tijolos brancos"
+                    class="img-home"
+                />
+                <img src="./assets/images/Bitmap-responsive.png" alt="Imagem de uma comoda verde com um retrato em cima com vazo de trigo, na frente de uma parede de tijolos brancos" class="img-home-responsive">
+                <div class="box-article">
+                    <h2 class="title-article">
+                        Shift the overall look and feel by adding these
+                        wonderful touches to furniture in your home
+                    </h2>
+                    <article class="article">
+                        Ever been in a room and felt like something was missing?
+                        Perhaps it felt slightly bare and uninviting. I’ve got
+                        some simple tips to help you make any room feel
+                        complete.
+                    </article>
+                    <div class="box-share-responsive-first" id="box-share-responsive-first" style="display: none;">
+                        <div class="box-share-responsive-second">
+                            <p class="title-share-responsive">
+                                SHARE
+                            </p>
+                            <a href="#" class="link-responsive">
+                                <img src="./assets/icons/facebook.svg" alt="Link do facebook" class="icon-share-responsive">
+                            </a>
+                            <a href="#" class="link-responsive">
+                                <img src="./assets/icons/x.svg" alt="Link da rede social X" class="icon-share-responsive">
+                            </a>
+                            <a href="#" class="link-responsive">
+                                <img src="./assets/icons/pinterest.svg" alt="Link do Pinterest"
+                                class="icon-share-responsive">
+                            </a>                        
+                            <img src="./assets/icons/icon-share-clicked.svg" alt="Icone de compartilhamento"
+                            class="icon-share-responsive"
+                            id="icon-share-clicked-responsive">
+                        </div>
+                    </div>
+                    <div class="box-profile" style="display: flex;" id="box-profile">
+                        <img
+                            src="./assets/icons/picture-profile.png"
+                            alt="Foto de perfil de uma mulher"
+                            class="img-profile"
+                        />
+                        <div class="box-dados-profile">
+                            <h3 class="name-profile">Michelle Appleton</h3>
+                            <div class="date-profile">28 Jun 2020</div>
+                        </div>
+                        <img
+                            src="./assets/icons/icon-share.png"
+                            alt="Icone de compartilhamento"
+                            class="icon-share"
+                            id="icon-share"
+                        />
+                        <img src="./assets/icons/icon-share-clicked.svg" alt="Icone de compartilhamento" class="icon-share-clicked" 
+                        id="icon-share-clicked"  style="display: none;">
+                        <div class="box-share-first"
+                        id="box-share-first" style="display: none;">
+                            <div class="box-share-second">
+                                <p class="text-share">SHARE</p>
+                                <a href="#" class="link">
+                                    <img src="./assets/icons/facebook.svg" alt="Icone do facebook" class="icon-navigate">
+                                <a href="#" class="link">
+                                <img src="./assets/icons/x.svg" alt="Icone do X" class="icon-navigate">
+                                </a>
+                                <a href="#" class="link">
+                                    <img src="./assets/icons/pinterest.svg" alt="Icone do Pinterest" class="icon-navigate">
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>            
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
